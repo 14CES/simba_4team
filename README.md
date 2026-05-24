@@ -1,15 +1,25 @@
 # 소개
 심바톤 4팀 왕따봉-워리버리입니다.
 
-# 기술스택
-## Front-End
-- HTML
-- CSS
-- JS
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/0-orora"><img src="" width="100px;" alt=""/><br /><sub><b>기획/디자인 : 오윤서</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/huisuu4"><img src="" width="100px;" alt=""/><br /><sub><b>FE : 이희수</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/Yunseo2727"><img src="" width="100px;" alt=""/><br /><sub><b>FE : 노윤서</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/14CES"><img src="" width="100px;" alt=""/><br /><sub><b>BE : 최은서</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/hw4nx02"><img src="" width="100px;" alt=""/><br /><sub><b>BE : 이창환</b></sub></a><br /></td>
+     <tr/>
+  </tbody>
+</table>
 
-## Back-End
-- Python
-- Django
+# 기술스택
+## Front-end
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white">
+<img src="https://img.shields.io/badge/JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+
+## Back-end
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"><img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
 
 ## 사용 라이브러리
 1. asgiref: 3.11.1
@@ -28,5 +38,5 @@
             <li>```pip install -r requirements.txt``` 수행</li>
         </ul>
     </li>
-    <li>Git 컨벤션은 아래 문서 참고</li>
+    <li>Git 컨벤션은 [위키](https://github.com/LikeLion-at-DGU/2026-simba-4team-WangDdabong/wiki/Convention) 참고</li>
 </ol>
