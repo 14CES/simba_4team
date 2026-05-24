@@ -29,14 +29,15 @@
 5. tzdata: 2026.2
 
 # 컨벤션
-<ol>
-    <li>작업 전 반드시 pull 받고 진행</li>
-    <li>requirements.txt 변경사항 있을 시
-        <ul>
-            <li>소통 채널 활용하여 공지</li>
-            <li>README.md '사용 라이브러리' 항목 수정</li>
-            <li>```pip install -r requirements.txt``` 수행</li>
-        </ul>
-    </li>
-    <li>Git 컨벤션은 [위키](https://github.com/LikeLion-at-DGU/2026-simba-4team-WangDdabong/wiki/Convention) 참고</li>
-</ol>
+1. 작업 전 반드시 pull 받고 진행
+
+2. `requirements.txt` 변경사항 있을 시
+   - 소통 채널 활용하여 공지
+   - `README.md`의 `사용 라이브러리` 항목 수정
+   - 아래 명령어 수행
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. Git 컨벤션은 [위키](https://github.com/LikeLion-at-DGU/2026-simba-4team-WangDdabong/wiki/Convention) 참고
