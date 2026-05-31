@@ -1,6 +1,7 @@
 from django.contrib.auth.models import User
 from django.contrib import auth
 from django.shortcuts import render, redirect
+from .models import Profile
 
 # Create your views here.
 def signup(request):
@@ -10,6 +11,19 @@ def signup(request):
                 username=request.POST['username'],
                 password=request.POST['password'],
             )
+
+            job = request.POST['job']
+            age = request.POST['age']
+            mbti = request.POST['mbti']
+
+            profile = Profile(
+                writer=newwriter,
+                job = job,
+                age = age,
+                mbti = mbti,
+            )
+
+            profile.save()
 
             auth.login(request, newwriter)
             return redirect('main:firstpage')
