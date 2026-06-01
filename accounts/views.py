@@ -27,9 +27,8 @@ def signup(request):
 
             auth.login(request, newwriter)
             return redirect('main:firstpage')
-    
+        
     return render(request, 'accounts/signup.html')
-
 
 def login(request):
     if request.method == 'POST':
