@@ -9,10 +9,12 @@ class Profile(models.Model):
     # bookmark_for_answer = models.ForeignKey('main.WorryPost',on_delete = models.SET_NULL, null = True, blank = True)
     # epilogue = models.ForeignKey('main.Epilogue', on_delete = models.SET_NULL, null = True, blank = True)
     signup_date = models.DateTimeField(auto_now_add=True)
-    job = models.CharField(max_length = 20)
-    age = models.IntegerField()
-    mbti = models.CharField(max_length = 4)
-    point = models.IntegerField(default = 0)
+    name = models.CharField(max_length = 20)        #이름
+    job = models.CharField(max_length = 20)         #직업
+    birth_date = models.DateField()                 #생년월일
+    mbti = models.CharField(max_length = 4)         #성향
+    email = models.EmailField()                     #이메일
+    point = models.IntegerField(default = 0)        #포인트 및 카운트
     worry_count = models.IntegerField(default = 0)
     worry_yang = models.IntegerField(default = 0)
 
